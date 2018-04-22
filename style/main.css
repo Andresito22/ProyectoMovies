@@ -17,12 +17,9 @@
     ul>li{
     display: inline-block;
     position: relative;
-    top:0;
-    left:20;
     }
-    
     ul>li>a{
-    padding:0px 20px;
+    padding:10px 20px;
     display: block;
     color: white;
     box-sizing: border-box;
@@ -32,8 +29,7 @@
     }
     
     nav{
-    text-align: center;
-    margin: -170px 550px 10px 10px;
+    text-align: left;
     }
     
     .logo{
@@ -47,8 +43,8 @@
     color:whitesmoke;
     font-family: 'Black Han Sans', sans-serif;
     position: relative;
-    top:400px;
-    left:-95px;
+    top:350px;
+    left: 20px;
     width: 419px;
     display: inline-block;
     }
@@ -56,13 +52,12 @@
     h2{
     font-family: 'Nunito', sans-serif;
     position: relative;
-    top:400px;
+    top:350px;
     left:20px;
     color: whitesmoke;
     font-size: 20px;
     width: 700px;
     }
-
     section{
     position: absolute;
     top: 0;
@@ -79,10 +74,10 @@
     }
 
     .div{
-    width: 120px;
-    height: 40px;
+    padding: 20px 40px;
+    display: inline-block;
     background-color: black; opacity: 0.5;
-    bottom: 210px;
+    bottom: 30px;
     left: 20px;
     position: absolute;
     color: white;
