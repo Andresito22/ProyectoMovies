@@ -141,13 +141,7 @@
     75% {margin-left: -300%;}
     100% {margin-left: -300%;}
     }
-    
-    container{
-    position: absolute;    
-    width: 100%;
-    height: 50px;
-    top: 700px;
-    }
+
 
     h3{
     font-family: 'Nunito', sans-serif;
@@ -156,425 +150,45 @@
     margin: 0 0 0 30px;
     }
 
-    container1{
-    position: absolute;
+    body container li{
+    float: left;
+    overflow: hidden;
+    margin: 60px 15px 20px 48px;
+    position: relative;
+    top: -120px;
+    }
+
+    container{
+    position: relative;
+    bottom: 100px;
     width: 100%;
-    height: 50px;
-    top: 1000px;
     }
 
-    h4{
-    font-family: 'Nunito', sans-serif;
-    color: whitesmoke;
-    font-size: 15px;
-    margin: 0 0 0 30px;
+    body container li img{
+    transition: all 500ms;
+    overflow: hidden;
     }
 
-    container2{
+    body container li:hover img:nth-child(1){
+    transform: scale(1.2);
+    transition: all 500ms;
+    filter: brightness(0.4);
+    }
+
+    body container li img:nth-child(2){
     position: absolute;
-    width: 100%;
-    height: 50px;
-    top: 1300px;
-    }
-
-    h5{
-    font-family: 'Nunito', sans-serif;
-    color: whitesmoke;
-    font-size: 15px;
-    margin: 0 0 0 30px;
-    }
-    
-    container3{
-    position: absolute;
-    width: 100%;
-    height: 50px;
-    top: 1600px;
-    }
-
-    h6{
-    font-family: 'Nunito', sans-serif;
-    color: whitesmoke;
-    font-size: 15px;
-    margin: 0 0 0 30px;
-    }
-
-    .avengers{
     top: 0;
     bottom: 0;
-    left: 0;
     right: 0;
-    margin: 0 0 0 45px;
-    height: 200px;
-    width: 200px;
-    transition-property:height, width, margin ; 
-    transition-duration:0.4s;
-    transition-delay:0.4s, 0.4s, 0.4s;
-    }
-
-    .avengers:hover{
-    height: 240px;
-    width: 240px;
-    margin-top: 20px;
-    }
-
-    .pantera{
-    top: 0;
-    bottom: 0;
     left: 0;
-    right: 0;
-    margin: 0 0 0 50px;
-    height: 200px;
-    width: 200px;
-    transition-property:height, width, margin ; 
-    transition-duration:0.4s;
-    transition-delay:0.4s, 0.4s, 0.4s;
+    margin: auto;
+    opacity: 0;
+    transition: all 500ms;
+    width: 70px;
     }
 
-    .pantera:hover{
-    height: 240px;
-    width: 240px; 
-    margin-top: 20px;      
+    body container li:hover img:nth-child(2){
+    opacity: 1;
+    transition: all 300ms;
     }
 
-    .dead{
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: 0 0 0 55px;
-    height: 200px;
-    width: 200px;
-    transition-property:height, width, margin ; 
-    transition-duration:0.4s;
-    transition-delay:0.4s, 0.4s, 0.4s;
-    }
-
-    .dead:hover{
-    height: 240px;
-    width: 240px; 
-    margin-top: 20px;      
-    }
-
-    .rampage{
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 200px;
-    width: 200px;
-    margin: 40px 0 0 60px;
-    transition-property:height, width, margin ; 
-    transition-duration:0.4s;
-    transition-delay:0.4s, 0.4s, 0.4s;
-    }
-
-    .rampage:hover{
-    height: 240px;
-    width: 240px; 
-    margin-top: 20px;      
-    }
-
-    .maze{
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 200px;
-    width: 200px;
-    margin: 40px 0 0 65px;
-    transition-property:height, width, margin ; 
-    transition-duration:0.4s;
-    transition-delay:0.4s, 0.4s, 0.4s;
-    }
-
-    .maze:hover{
-    height: 240px;
-    width: 240px; 
-    margin-top: 20px;      
-    }
-    
-    .conj{
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: 0 0 0 45px;
-    height: 200px;
-    width: 200px;
-    transition-property:height, width, margin ; 
-    transition-duration:0.4s;
-    transition-delay:0.4s, 0.4s, 0.4s;
-    }
-
-    .conj:hover{
-    height: 240px;
-    width: 240px; 
-    margin-top: 20px;      
-    }
-
-    .insi{
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: 0 0 0 50px;
-    height: 200px;
-    width: 200px;
-    transition-property:height, width, margin ; 
-    transition-duration:0.4s;
-    transition-delay:0.4s, 0.4s, 0.4s;
-    }
-
-    .insi:hover{
-    height: 240px;
-    width: 240px; 
-    margin-top: 20px;      
-    }
-
-    .jc3{
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: 0 0 0 55px;
-    height: 200px;
-    width: 200px;
-    transition-property:height, width, margin ; 
-    transition-duration:0.4s;
-    transition-delay:0.4s, 0.4s, 0.4s;
-    }
-
-    .jc3:hover{
-    height: 240px;
-    width: 240px; 
-    margin-top: 20px;   
-    }  
-
-    .siniestro{
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 200px;
-    width: 200px;
-    margin: 40px 0 0 60px;
-    transition-property:height, width, margin ; 
-    transition-duration:0.4s;
-    transition-delay:0.4s, 0.4s, 0.4s;
-    }
-
-    .siniestro:hover{
-    height: 240px;
-    width: 240px; 
-    margin-top: 20px;   
-    }      
-
-    .nun{
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: 0 0 0 65px;
-    height: 200px;
-    width: 200px;
-    transition-property:height, width, margin ; 
-    transition-duration:0.4s;
-    transition-delay:0.4s, 0.4s, 0.4s;
-    }
-
-    .nun:hover{
-    height: 240px;
-    width: 240px; 
-    margin-top: 20px;   
-    }      
-
-    .msc{
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: 0 0 0 45px;
-    height: 200px;
-    width: 200px;
-    transition-property:height, width, margin ; 
-    transition-duration:0.4s;
-    transition-delay:0.4s, 0.4s, 0.4s;
-    }
-
-    .msc:hover{
-    height: 240px;
-    width: 240px; 
-    margin-top: 20px;   
-    }     
-
-    .bajolamisma{
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: 0 0 0 50px;
-    height: 200px;
-    width: 200px;
-    transition-property:height, width, margin ; 
-    transition-duration:0.4s;
-    transition-delay:0.4s, 0.4s, 0.4s;
-    }
-
-    .bajolamisma:hover{
-    height: 240px;
-    width: 240px; 
-    margin-top: 20px;   
-    }       
-
-    .sombras{
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: 0 0 0 55px;
-    height: 200px;
-    width: 200px;
-    transition-property:height, width, margin ; 
-    transition-duration:0.4s;
-    transition-delay:0.4s, 0.4s, 0.4s;
-    }
-    
-    .sombras:hover{
-    height: 240px;
-    width: 240px; 
-    margin-top: 20px;   
-    }
-
-    .yoantes{
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 200px;
-    width: 200px;
-    margin: 40px 0 0 60px;
-    transition-property:height, width, margin ; 
-    transition-duration:0.4s;
-    transition-delay:0.4s, 0.4s, 0.4s;
-    }
-
-    .yoantes:hover{
-    height: 240px;
-    width: 240px; 
-    margin-top: 20px;   
-    }    
-
-    .todo{
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 200px;
-    width: 200px;
-    margin: 40px 0 0 60px;
-    transition-property:height, width, margin ; 
-    transition-duration:0.4s;
-    transition-delay:0.4s, 0.4s, 0.4s;
-    }
-
-    .todo:hover{
-    height: 240px;
-    width: 240px; 
-    margin-top: 20px;   
-    }    
-
-    .dirty{
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: 0 0 0 45px;
-    height: 200px;
-    width: 200px;
-    transition-property:height, width, margin ; 
-    transition-duration:0.4s;
-    transition-delay:0.4s, 0.4s, 0.4s;
-    }
-
-    .dirty:hover{
-    height: 240px;
-    width: 240px; 
-    margin-top: 20px;   
-    }    
-
-    .jumanji{
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: 0 0 0 50px;
-    height: 200px;
-    width: 200px;
-    transition-property:height, width, margin ; 
-    transition-duration:0.4s;
-    transition-delay:0.4s, 0.4s, 0.4s;
-    }
-    
-    .jumanji:hover{
-    height: 240px;
-    width: 240px; 
-    margin-top: 20px;   
-    }    
-
-    .papas{
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    margin: 0 0 0 55px;
-    height: 200px;
-    width: 200px;
-    transition-property:height, width, margin ; 
-    transition-duration:0.4s;
-    transition-delay:0.4s, 0.4s, 0.4s;
-    }
-
-    .papas:hover{
-    height: 240px;
-    width: 240px; 
-    margin-top: 20px;   
-    }    
-
-    .grandpa{
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 200px;
-    width: 200px;
-    margin: 40px 0 0 60px;
-    transition-property:height, width, margin ; 
-    transition-duration:0.4s;
-    transition-delay:0.4s, 0.4s, 0.4s;
-    }
-
-    .grandpa:hover{
-    height: 240px;
-    width: 240px; 
-    margin-top: 20px;   
-    }    
-
-    .horrible{
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 200px;
-    width: 200px;
-    margin: 40px 0 0 65px;
-    transition-property:height, width, margin; 
-    transition-duration:0.4s;
-    transition-delay:0.4s, 0.4s, 0.4s, 0.4s;
-    }
-
-    .horrible:hover{
-    height: 240px;
-    width: 240px; 
-    margin-top: 20px;   
-    background:  rgba(0, 0, 0, 0.904) ;
-    }    
