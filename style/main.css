@@ -885,32 +885,24 @@
     top: 280px;
     }
 
-    .play{
-    position: absolute;
-    top: 82px;
-    bottom: 0px;
-    right: 1213px;
-    left: 0px;
-    margin: auto;
-    opacity: 1;
-    transition: all 500ms;
-    width: 50px;
-    filter: brightness(0.6);
-    }
-
     .play1{
     position: absolute;
-    top: 116px;
-    bottom: 0px;
-    right: 1273px;
-    left: 0px;
+    top: 0;
+    bottom: 1px;
+    right: 110px;
+    left: 0;
     margin: auto;
     opacity: 1;
-    transition: all 500ms;
-    width: 50px;
+    transition: all 100ms;
+    width: 40px;
     filter: brightness(0.6);
+    z-index: 1;
     }
 
     .div1:hover .play1{
+    filter: brightness(1);
+    }
+
+    .bot1:hover .play1{
     filter: brightness(1);
     }
