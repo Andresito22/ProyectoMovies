@@ -31,7 +31,11 @@
     box-sizing: border-box;
     font-family: 'Nunito', sans-serif;
     margin:0;
+    transition: all 300ms;
+    }
 
+    ul>li>a:hover{
+    color: #f34545;
     }
     
     nav{
@@ -46,7 +50,7 @@
 
     h1{
     font-size:30px;
-    color:whitesmoke;
+    color:rgb(255, 9, 9);
     font-family: 'Black Han Sans', sans-serif;
     position: relative;
     top:300px;
@@ -54,6 +58,7 @@
     width: 419px;
     display: inline-block;
     z-index: 1;
+    filter: brightness(0.7);
     }
 
     h2{
@@ -65,8 +70,9 @@
     font-size: 20px;
     width: 700px;
     z-index: 1;
+    filter: brightness(0.8);
     }
-    section{
+    .container1{
     position: absolute;
     top: 0;
     width: 100%;
@@ -82,9 +88,32 @@
     }
 
     .div{
-    padding: 10px 30px;
+    padding: 11px 30px;
     display: inline-block;
-    background-color: black; opacity: 0.5;
+    background-color: rgb(8, 1, 1); opacity: 0.5;
+    bottom: 250px;
+    left: 190px;
+    position: absolute;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 11px 11px 11px 11px;
+    -moz-border-radius: 11px 11px 11px 11px;
+    -webkit-border-radius: 11px 11px 11px 11px;
+    border: 0px solid #555555;
+    width: 140px;
+    height: 45px;
+    font-size: 16px;
+    }
+
+    .div:hover{
+    background-color: white;
+    background-color: rgb(109, 103, 103); opacity: 1;
+    }
+
+    .div1{
+    padding: 10px 45px;
+    display: inline-block;
+    background-color: rgb(197, 4, 4); opacity: 0.5;
     bottom: 250px;
     left: 20px;
     position: absolute;
@@ -94,14 +123,14 @@
     -moz-border-radius: 11px 11px 11px 11px;
     -webkit-border-radius: 11px 11px 11px 11px;
     border: 0px solid #000000;
-    width: 140px;
+    width: 161px;
     height: 45px;
     font-size: 16px;
     }
 
-    .div:hover{
+    .div1:hover{
     background-color: white;
-    color:black;
+    background-color: rgb(250, 3, 3); opacity: 1;
     }
 
     .slider{
@@ -109,6 +138,7 @@
     height: 700px;
     margin: -20px 0 0 0 ;
     overflow: hidden;
+    filter: brightness(0.7);
     }
 
     .slider ul {
@@ -146,39 +176,251 @@
     h3{
     font-family: 'Nunito', sans-serif;
     color: whitesmoke;
-    font-size: 15px;
+    font-size: 18px;
     margin: 0 0 0 30px;
+    position: relative; 
+    top: -100px;
+    cursor: pointer;
     }
 
-    body container li{
-    float: left;
-    overflow: hidden;
-    margin: 60px 15px 20px 48px;
-    position: relative;
-    top: -120px;
+    h4{
+    font-family: 'Nunito', sans-serif;
+    color: whitesmoke;
+    font-size: 18px;
+    margin: 0 0 0 30px;
+    position: relative; 
+    top: -20px;
+    cursor: pointer;
     }
 
-    container{
+    h5{
+    font-family: 'Nunito', sans-serif;
+    color: whitesmoke;
+    font-size: 18px;
+    margin: 0 0 0 30px;
+    position: relative; 
+    top: 70px;
+    cursor: pointer;
+    }
+
+    h6{
+    font-family: 'Nunito', sans-serif;
+    color: whitesmoke;
+    font-size: 18px;
+    margin: 0 0 0 30px;
+    position: relative; 
+    top: 160px;
+    cursor: pointer;
+    }
+
+    .letra{
+    font-family: 'Nunito', sans-serif;
+    color: whitesmoke;
+    font-size: 18px;
+    margin: 0 0 0 30px;
+    position: absolute; 
+    top: 2100px;
+    cursor: pointer;
+    }
+
+    h7{
+    font-family: 'Nunito', sans-serif;
+    color: whitesmoke;
+    font-size: 20px;
+    margin: 0 0 0 30px;
+    position: absolute; 
+    font-weight: bold;
+    }
+
+
+    body .container li{
+    display: inline;
+    align-content: space-between;
+    margin: 40px 10px 20px 48px;
     position: relative;
-    bottom: 100px;
+    top: -60px;
     width: 100%;
     }
 
-    body container li img{
+    body .container2 li{
+    display: inline;
+    align-content: space-between;
+    margin: 60px 10px 20px 48px;
+    position: relative;
+    top: 30px;
+    width: 100%;
+    }
+
+    body .container3 li{
+    display: inline;
+    align-content: space-between;
+    margin: 60px 10px 20px 48px;
+    position: relative;
+    top: 120px;
+    width: 100%;
+    }
+
+    body .container4 li{
+    display: inline;
+    align-content: space-between;
+    margin: 60px 10px 20px 48px;
+    position: relative;
+    top: 220px;
+    width: 100%;
+    }
+
+    body .container5 li{
+    display: inline;
+    align-content: space-between;
+    margin: 60px 10px 20px 48px;
+    position: relative;
+    top: 340px;
+    width: 100%;
+    }
+
+    body .container6 li{
+    display: inline;
+    align-content: space-between;
+    margin: 60px 10px 20px 45px;
+    position: relative;
+    top: 60px;
+    width: 100%;
+    left: 10px;
+    }
+
+    body .container8 li{
+    display: inline;
+    align-content: space-between;
+    margin: 200px 10px 20px 45px;
+    position: relative;
+    top: 60px;
+    width: 100%;
+    left: 10px;
+    }
+
+    body .container9 li{
+    display: inline;
+    align-content: space-between;
+    margin: 200px 10px 20px 45px;
+    position: relative;
+    top: 110px;
+    width: 100%;
+    left: 10px;
+    }
+
+    body .container10 li{
+    display: inline;
+    align-content: space-between;
+    margin: 200px 10px 20px 45px;
+    position: relative;
+    top: 230px;
+    width: 100%;
+    left: 10px;
+    }
+
+    body .container li img{
     transition: all 500ms;
     overflow: hidden;
     }
 
-    body container li:hover img:nth-child(1){
+    body .container2 li img{
+    transition: all 500ms;
+    overflow: hidden;
+    }
+
+    body .container3 li img{
+    transition: all 500ms;
+    overflow: hidden;
+    }
+
+    body .container4 li img{
+    transition: all 500ms;
+    overflow: hidden;
+    }
+
+    body .container5 li img{
+    transition: all 500ms;
+    overflow: hidden;
+    }
+
+    body .container6 li img{
+    transition: all 500ms;
+    overflow: hidden;
+    }
+
+    body .container8 li img{
+    transition: all 500ms;
+    overflow: hidden;
+    }
+
+    body .container9 li img{
+    transition: all 500ms;
+    overflow: hidden;
+    }
+
+    body .container10 li img{
+    transition: all 500ms;
+    overflow: hidden;
+    }
+
+    body .container li:hover img:nth-child(1){
     transform: scale(1.2);
     transition: all 500ms;
     filter: brightness(0.4);
     }
 
-    body container li img:nth-child(2){
+    body .container2 li:hover img:nth-child(1){
+    transform: scale(1.2);
+    transition: all 500ms;
+    filter: brightness(0.4);
+    }
+
+    body .container3 li:hover img:nth-child(1){
+    transform: scale(1.2);
+    transition: all 500ms;
+    filter: brightness(0.4);
+    }
+
+    body .container4 li:hover img:nth-child(1){
+    transform: scale(1.2);
+    transition: all 500ms;
+    filter: brightness(0.4);
+    }
+
+    body .container5 li:hover img:nth-child(1){
+    transform: scale(1.2);
+    transition: all 500ms;
+    filter: brightness(0.4);
+    }
+
+    body .container6 li:hover img:nth-child(1){
+    transform: scale(1.2);
+    transition: all 500ms;
+    filter: brightness(0.4);
+    }
+
+    body .container8 li:hover img:nth-child(1){
+    transform: scale(1.2);
+    transition: all 500ms;
+    filter: brightness(0.4);
+    }
+
+    body .container9 li:hover img:nth-child(1){
+    transform: scale(1.2);
+    transition: all 500ms;
+    filter: brightness(0.4);
+    }
+
+    body .container10 li:hover img:nth-child(1){
+    transform: scale(1.2);
+    transition: all 500ms;
+    filter: brightness(0.4);
+    }
+
+    body .container li img:nth-child(2){
     position: absolute;
-    top: 0;
-    bottom: 0;
+    top: -200px;
+    bottom: 0px;
     right: 0;
     left: 0;
     margin: auto;
@@ -187,8 +429,488 @@
     width: 70px;
     }
 
-    body container li:hover img:nth-child(2){
+    body .container2 li img:nth-child(2){
+    position: absolute;
+    top: -200px;
+    bottom: 0px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    opacity: 0;
+    transition: all 500ms;
+    width: 70px;
+    }
+
+    body .container3 li img:nth-child(2){
+    position: absolute;
+    top: -200px;
+    bottom: 0px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    opacity: 0;
+    transition: all 500ms;
+    width: 70px;
+    }
+
+    body .container4 li img:nth-child(2){
+    position: absolute;
+    top: -200px;
+    bottom: 0px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    opacity: 0;
+    transition: all 500ms;
+    width: 70px;
+    }
+
+    body .container5 li img:nth-child(2){
+    position: absolute;
+    top: -200px;
+    bottom: 0px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    opacity: 0;
+    transition: all 500ms;
+    width: 70px;
+    }
+
+    body .container6 li img:nth-child(2){
+    position: absolute;
+    top: -250px;
+    bottom: 0px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    opacity: 0;
+    transition: all 500ms;
+    width: 70px;
+    }
+
+    body .container8 li img:nth-child(2){
+    position: absolute;
+    top: -250px;
+    bottom: 0px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    opacity: 0;
+    transition: all 500ms;
+    width: 70px;
+    }
+
+    body .container9 li img:nth-child(2){
+    position: absolute;
+    top: -250px;
+    bottom: 0px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    opacity: 0;
+    transition: all 500ms;
+    width: 70px;
+    }
+
+    body .container10 li img:nth-child(2){
+    position: absolute;
+    top: -250px;
+    bottom: 0px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    opacity: 0;
+    transition: all 500ms;
+    width: 70px;
+    }
+
+    body .container li:hover img:nth-child(2){
     opacity: 1;
     transition: all 300ms;
     }
 
+    body .container2 li:hover img:nth-child(2){
+    opacity: 1;
+    transition: all 300ms;
+    }
+       
+    body .container3 li:hover img:nth-child(2){
+    opacity: 1;
+    transition: all 300ms;
+    }
+
+    body .container4 li:hover img:nth-child(2){
+    opacity: 1;
+    transition: all 300ms;
+    }
+ 
+    body .container5 li:hover img:nth-child(2){
+    opacity: 1;
+    transition: all 300ms;
+    }
+    
+    body .container6 li:hover img:nth-child(2){
+    opacity: 1;
+    transition: all 300ms;
+    }
+
+    body .container8 li:hover img:nth-child(2){
+    opacity: 1;
+    transition: all 300ms;
+    }
+
+    body .container9 li:hover img:nth-child(2){
+    opacity: 1;
+    transition: all 300ms;
+    }
+
+    body .container10 li:hover img:nth-child(2){
+    opacity: 1;
+    transition: all 300ms;
+    }
+
+     .fondo{
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    position: fixed;
+    }
+
+    .fondo1{
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    position: fixed;
+    filter: brightness(0.7);
+    }
+
+    .video2{
+    position: relative;
+    z-index: 1;
+    min-width: 100%;
+    min-height: 100%;
+    bottom: 20px;
+    filter: brightness(1);
+    }
+
+    h8{
+    font-size:30px;
+    color:rgb(255, 9, 9);
+    font-family: 'Black Han Sans', sans-serif;
+    position: absolute;
+    bottom: 240px;
+    left: 50px;
+    }
+
+
+    h9{
+    font-family: 'Nunito', sans-serif;
+    color: whitesmoke;
+    font-size: 20px;
+    position: absolute; 
+    bottom: 160px;
+    left: 50px;
+    width: 40%;
+    }
+
+
+    h15{
+    font-family: 'Nunito', sans-serif;
+    color: whitesmoke;
+    font-size: 18px;
+    position: absolute; 
+    top: 120px;
+    left: 30px;
+    width: 40%;
+    font-weight: bold;
+    cursor: pointer;
+    }
+
+    h16{
+    font-family: 'Nunito', sans-serif;
+    color: whitesmoke;
+    font-size: 18px;
+    position: absolute; 
+    bottom: -170px;
+    left: 30px;
+    width: 40%;
+    font-weight: bold;
+    cursor: pointer;
+    }
+
+    .boton{
+    padding: 10px 30px;
+    display: inline-block;
+    background-color: rgb(252, 0, 0); opacity: 0.5;
+    bottom: -50px;
+    left:0px;
+    position: absolute;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 11px 11px 11px 11px;
+    -moz-border-radius: 11px 11px 11px 11px;
+    -webkit-border-radius: 11px 11px 11px 11px;
+    border: 0px solid #000000;
+    width: 140px;
+    height: 45px;
+    font-size: 16px;
+    transition: all 200ms;
+    }
+
+    .boton:hover{
+    background-color: rgb(250, 3, 3); opacity: 1;
+    }
+
+    .fondo2{
+    width: 100%;
+    height: 100%;
+    z-index: -2;
+    position: fixed;
+    filter: brightness(0.6);
+    }
+
+    h10{
+    font-size:34px;
+    color:whitesmoke;
+    font-family: 'Black Han Sans', sans-serif;
+    position: absolute;
+    top: 160px;
+    left: 50px;
+    filter: brightness(0.9);
+    }
+
+    h11{
+    font-family: 'Nunito', sans-serif;
+    color: rgb(255, 0, 0);
+    font-size: 20px;
+    position: absolute; 
+    top: 200px;
+    left: 50px;
+    width: 40%;
+    font-weight: bold;
+    }
+
+    h12{
+    font-family: 'Nunito', sans-serif;
+    color:whitesmoke;
+    font-size: 20px;
+    position: absolute; 
+    top: 230px;
+    left: 50px;
+    width: 40%;
+    font-weight: bold;
+    filter: brightness(0.8);
+    }
+
+    h13{
+    font-family: 'Nunito', sans-serif;
+    color:whitesmoke;
+    font-size: 18px;
+    position: absolute; 
+    top: 410px;
+    left: 50px;
+    width: 70%;
+    font-weight: bold;
+    filter: brightness(0.8);
+    }
+
+    .bot1{
+    padding: 10px 45px;
+    display: inline-block;
+    background-color: rgb(252, 0, 0); opacity: 0.5;
+    top: 350px;
+    left:50px;
+    position: absolute;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 11px 11px 11px 11px;
+    -moz-border-radius: 11px 11px 11px 11px;
+    -webkit-border-radius: 11px 11px 11px 11px;
+    border: 0px solid #000000;
+    width: 160px;
+    height: 45px;
+    font-size: 16px;
+    transition: all 300ms;
+    }
+
+    .bot1:hover{
+    background-color: rgb(206, 7, 7); opacity: 1;
+    }
+
+
+    .bot2{
+    padding: 11px 30px;
+    display: inline-block;
+    background-color: rgb(8, 1, 1); opacity: 0.5;
+    top: 350px;
+    left: 230px;
+    position: absolute;
+    color: white;
+    font-family: 'Nunito', sans-serif;
+    border-radius: 11px 11px 11px 11px;
+    -moz-border-radius: 11px 11px 11px 11px;
+    -webkit-border-radius: 11px 11px 11px 11px;
+    border: 0px solid #555555;
+    width: 130px;
+    height: 45px;
+    font-size: 16px;
+    transition: all 300ms;
+    }
+
+    .bot2:hover{
+    background-color: white;
+    background-color: rgba(109, 103, 103, 0.658); opacity: 2;
+    }
+
+    .fcategorias{
+    width: 100%;
+    height: 300px;
+    background-color: #01031a;
+    position: relative;
+    top:390px;
+    }
+
+    .logo3{
+    width: 140px;
+    height: 100px;
+    position: absolute;
+    left: 160px;
+    top: 90px;
+    }
+
+    h17{
+    position: absolute;
+    font-family: 'Nunito', sans-serif;
+    color:whitesmoke;
+    font-size: 18px;
+    position: absolute; 
+    top: 128px;
+    left: 300px;
+    width: 70%;
+    font-weight: bold;
+    filter: brightness(0.8);
+    }
+
+    article{
+    width: 1px;
+    height: 90px;
+    position: absolute;
+    border-left: solid whitesmoke 1px;
+    left: 420px;
+    top:94px;
+    }
+
+    h18{
+    position: absolute;
+    font-family: 'Nunito', sans-serif;
+    color:whitesmoke;
+    font-size: 14px;
+    top: 100px;
+    left: 460px;
+    width: 30%;
+    filter: brightness(0.5);
+    }
+
+    h19{
+    position: absolute;
+    font-family: 'Nunito', sans-serif;
+    color:whitesmoke;
+    font-size: 16px;
+    top: 80px;
+    left:920px;
+    width: 30%;
+    filter: brightness(0.9);
+    font-weight: bold;
+    margin-left: 20px;
+    }
+
+    .icono1{
+    position: absolute;
+    right: 385px;
+    top: 120px;
+    filter: brightness(0.7);
+    }
+
+    .icono1:hover{
+    filter: brightness(1);
+    }
+
+    .icono2{
+    position: absolute;
+    right: 335px;
+    top: 120px;
+    filter: brightness(0.7);
+    }
+
+    .icono2:hover{
+    filter: brightness(1);
+    }
+
+    .icono3{
+    position: absolute;
+    right: 285px;
+    top: 120px;
+    filter: brightness(0.7);
+    }
+
+    .icono3:hover{
+    filter: brightness(1);
+    }
+
+    .icono4{
+    position: absolute;
+    right: 235px;
+    top: 120px;
+    filter: brightness(0.7);
+    }
+
+    .icono4:hover{
+    filter: brightness(1);
+    }
+
+    .fniños{
+    width: 100%;
+    height: 300px;
+    background-color: #01031a;
+    position: relative;
+    top:90px;
+    }
+
+    .fagregados{
+    width: 100%;
+    height: 300px;
+    background-color: #01031a;
+    position: relative;
+    top: 280px;
+    }
+
+    .play{
+    position: absolute;
+    top: 82px;
+    bottom: 0px;
+    right: 1213px;
+    left: 0px;
+    margin: auto;
+    opacity: 1;
+    transition: all 500ms;
+    width: 50px;
+    filter: brightness(0.6);
+    }
+
+    .play1{
+    position: absolute;
+    top: 116px;
+    bottom: 0px;
+    right: 1273px;
+    left: 0px;
+    margin: auto;
+    opacity: 1;
+    transition: all 500ms;
+    width: 50px;
+    filter: brightness(0.6);
+    }
+
+    .div1:hover .play1{
+    filter: brightness(1);
+    }
